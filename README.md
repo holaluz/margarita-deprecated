@@ -1,29 +1,7 @@
-# deprecated-grid
+# Deprecated Grid
 
-## Project setup
-```
-npm install
-```
+**Caution!**: Do not remove this repo, as it is being used in several HL apps.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This Grid implementation is deprecated and we wanted to move it away from our Design System implementation ([Margarita](https://github.com/holaluz/margarita)).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This repository should not be used in new developments. Use Margarita instead.
