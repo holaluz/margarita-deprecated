@@ -1,7 +1,7 @@
-# Deprecated Grid
+# Margarita Deprecated
 
 **Caution!**: Do not remove this repo, as it is being used in several HL apps.
 
-This Grid implementation is deprecated and we wanted to move it away from our Design System implementation ([Margarita](https://github.com/holaluz/margarita)).
+This repo contains some deprecated components that are used in some apps but we don't support nor recommend.
 
-This repository should not be used in new developments. Use Margarita instead.
+This repository should not be used in new developments. Use [Margarita](https://github.com/holaluz/margarita) instead.

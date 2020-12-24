@@ -1,10 +1,10 @@
 {
-  "name": "deprecated-grid",
+  "name": "@holaluz/margarita-deprecated",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name deprecated-grid src/index.js",
+    "build": "vue-cli-service build --target lib --name margarita-deprecated src/index.js",
     "test": "vue-cli-service test:unit",
     "format": "prettier 'src/**/*.{js,vue}' --write && stylelint 'src/**/*.scss' --fix",
     "lint": "npm run lint:js && npm run lint:css",
@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/deprecated-grid.umd.js",
+  "main": "dist/margarita-deprecated.umd.js",
   "devDependencies": {
     "@holaluz/npm-scripts": "^5.1.0",
     "@testing-library/jest-dom": "^5.11.6",
