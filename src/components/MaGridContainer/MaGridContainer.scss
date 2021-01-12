@@ -9,16 +9,16 @@
   }
 
   &--form {
-    margin: rem(72px) auto;
+    margin: 4.5rem auto;
 
     .ma-grid-row {
       > .ma-grid-col,
       > [class*='ma-grid-col--'] {
-        margin-bottom: rem(24px);
+        margin-bottom: 1.5rem;
       }
 
       &--has-margin-top {
-        margin-top: rem(24px);
+        margin-top: 1.5rem;
       }
 
       &--no-margin-bottom {
