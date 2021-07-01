@@ -5,14 +5,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name margarita-deprecated src/index.js",
     "test": "vue-cli-service test:unit",
-    "format": "prettier 'src/**/*.{js,vue}' --write && stylelint 'src/**/*.scss' --fix",
+    "format": "prettier 'src/**/*.{js,vue}' --write && stylelint 'src/**/*.css' --fix",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:css": "stylelint 'src/**/*.scss'",
+    "lint:css": "stylelint 'src/**/*.css'",
     "lint:js": "eslint 'src/**/*.{js,vue}'"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "sass-mq": "^5.0.1",
     "vue": "^2.6.11",
     "vue-functional-data-merge": "^3.1.0"
   },
@@ -45,10 +44,7 @@
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.5.3",
     "lodash.merge": "^4.6.2",
-    "node-sass": "^5.0.0",
     "prettier": "^2.2.1",
-    "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
     "semantic-release": "^17.3.1",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",

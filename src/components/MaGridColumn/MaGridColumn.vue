@@ -36,5 +36,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" src="./MaGridColumn.scss"></style>
