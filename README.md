@@ -1,3 +1,5 @@
+# DEPRECATED :no_entry:
+
 # Margarita Deprecated
 
 **Caution!**: Do not remove this repo, as it is being used in several HL apps.
